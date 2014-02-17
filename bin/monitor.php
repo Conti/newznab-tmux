@@ -1,11 +1,11 @@
 <?php
 
-require(dirname(__FILE__)."/config.php");
+require(dirname(__FILE__)."/bin/config.php");
 require(WWW_DIR.'/lib/postprocess.php');
 require_once (WWW_DIR.'/lib/site.php');
-require_once("../test/ColorCLI.php");
-require_once("../test/showsleep.php");
-require_once("../test/functions.php");
+require_once("/test/ColorCLI.php");
+require_once("/test/showsleep.php");
+require_once("/test/functions.php");
 
 
 $version="0.3r702";
